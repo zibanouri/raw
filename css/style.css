@@ -73,7 +73,7 @@ body {
   color: white;
 }
 .image {
-  width: 5rem;
+  width: 3rem;
   height: 3.5rem;
   border-radius: 8px;
   object-fit: cover;
@@ -107,6 +107,9 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+.big-card:hover{
+    transform: scale(1.01);
 }
 .card-image {
   width: 600px;
