@@ -17,7 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #192a56;
+  background-color: #273c75;
   color: white;
 }
 .title {
@@ -121,4 +121,13 @@ body {
   height: 400px;
   object-fit: cover;
   transition: transform 0.3s;
+}
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #192a56;
 }
