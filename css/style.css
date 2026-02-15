@@ -11,6 +11,11 @@ body {
 }
 .head {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 .head-inner {
   display: flex;
@@ -84,6 +89,7 @@ body {
 .image:hover {
   transform: scale(1.05);
 }
+
 .main-content {
   background-color: #f3f4f6;
   padding: 2rem 1rem;
