@@ -135,13 +135,13 @@ body {
 .card-content {
   padding: 1.5rem;
 }
-.card-title{
+.card-title {
   font-size: 1.8rem;
   margin-bottom: 1.2rem;
   color: #273c75;
 }
 
-.card-text{
+.card-text {
   color: rgb(80, 78, 78);
   margin-bottom: 1.2rem;
   line-height: 1.6;
@@ -156,6 +156,25 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.card-btn:hover{
+.card-btn:hover {
   background-color: #1e2e59;
+}
+.simple-text {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+  padding-left: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.simple-text h2 {
+  font-size: 1.8rem;
+  color: #273c75;
+  margin-bottom: 1.2rem;
+}
+
+.simple-text p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #444;
 }
